@@ -1,5 +1,5 @@
 {
-  "name": "lolapp",
+  "name": "lolytics",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -8,18 +8,18 @@
     "start": "node server.js",
     "tsc": "tsc",
     "dev": "ts-node-dev --respawn --transpileOnly ./server.ts",
-    "prod": "tsc && node ./build/app.js"
+    "prod": "tsc && node ./../build/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ernestomellado/lolapp.git"
+    "url": "git+https://github.com/Rha001/lolytics"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ernestomellado/lolapp/issues"
+    "url": "https://github.com/Rha001/lolytics/issues"
   },
-  "homepage": "https://github.com/ernestomellado/lolapp#readme",
+  "homepage": "https://github.com/Rha001/lolytics#readme",
   "dependencies": {
     "@types/express": "^4.17.2",
     "axios": "^0.19.0",
