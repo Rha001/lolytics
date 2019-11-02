@@ -11,9 +11,9 @@ import { ApiService } from './services/lolApi.service';
 
 const apiService = new ApiService();
 
-app.route('/summoner/:name')
+app.route('/summoner/:region/:name')
     .get((req, res) => {
-        apiService.getSummoner(req.params.name).then((response) => {
+        apiService.getSummoner(req.params.region, req.params.name).then((response) => {
             res.json(response.data);
         }).catch((err) => {
             res.send(404);

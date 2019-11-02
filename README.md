@@ -9,4 +9,17 @@
 - you can start the prod server with `npm run prod`
 
 # Backend endpoints
-- `/summoner/summonerName`
+- `/summoner/region/summonerName`
+# List of regions available
+
+- BR1
+- EUN1
+- EUW1
+- JP1
+- KR
+- LA1
+- LA2
+- NA1
+- OC1
+- TR1
+- RU
